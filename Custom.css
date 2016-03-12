@@ -1,0 +1,101 @@
+@media (min-width: 768px) {
+  body {
+    font-family: Helvetica, Arial, PingFang SC, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, NSimSun, Simsun, sans-serif !important;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #flarum-loading {
+    font-family: 'adelle', 'Georgia', Arial, FangSong, "KaiTi", Simsun, sans-serif !important;
+    font-size: 24px;
+  }
+  #header {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 75px;
+  }
+  .Hero {
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .App-content {
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 4px;
+  }
+  .App:before {
+    display: none;
+  }
+  .hasPane.panePinned .App-content, .hasPane.panePinned .App-footer {
+    margin-left: 30%;
+  }
+  .UserCard {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+  }
+  .containerNarrow {
+    font-family: 'adelle', 'Georgia', Helvetica, Arial, FangSong, "KaiTi", Simsun, sans-serif !important;
+  }
+  .DiscussionHero-title {
+    font-family: Times, 'adelle', 'Georgia', Arial, FangSong, "KaiTi", NSimSun, Simsun, sans-serif !important;
+  }
+  .Button-label .username {
+    font-family: 'adelle', 'Georgia', Arial, PingFang SC, Microsoft Yahei, Hiragino Sans GB, Simsun, sans-serif !important;
+    font-size: 16px;
+  }
+  .TagLabel {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  .TagCloud {
+    padding-bottom: 20px;
+  }
+  .sideNav .Dropdown--select .Dropdown-menu > li > a {
+    padding: 8px 0 10px 65px;
+  }
+  .App-header .container {
+    padding-top: 12px;
+  }
+  .App-header .Header-navigation {
+    margin-top: 10px;
+  }
+  .Scrubber-handle {
+    background: none;
+  }
+  @media (max-height: 820px) {
+    .App {
+        padding-bottom: 0 !important;
+    }
+  }
+  .DiscussionPage-discussion > .container {
+    min-height: 520px;
+    padding-bottom: 20px;
+  }
+  .DiscussionPage-list {
+    top: 75px;
+    width: 370px;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .ReplyPlaceholder {
+    margin-left: 5px;
+    margin-top: 25px;
+    padding-left: 150px;
+    font-size: 18px;
+    font-family: Times, NSimSun, Simsun, PingFang SC, sans-serif !important;
+  }
+  .Avatar {
+    font-family: 'adelle', 'Georgia', Helvetica, Arial, "KaiTi", PingFang SC, NSimSun, Simsun, sans-serif !important;
+  }
+  #admin-navigation {
+    top: 85px;
+    border-radius: 4px;
+  }
+}
+.PostsUserPage-discussion a {
+  font-style: normal;
+}
